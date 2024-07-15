@@ -34,7 +34,7 @@ export default function Home() {
 
   const clickHandler = () => {
     sendGTMEvent({ event: 'buttonClicked', value: 'xyz' }); 
-    trackEvent('button_click', { category: 'Navigation', label: 'Homepage' });
+    trackEvent('buttonClick', { category: 'Navigation', label: 'Homepage' });
   }
 
   return (
