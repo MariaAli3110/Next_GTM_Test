@@ -42,7 +42,7 @@ export default function Home() {
   <button
         onClick={clickHandler}
       >
-        Send Event GTM
+        Send Event GTM Fire Tag
       </button>
       <button
         onClick={() => sendGAEvent({ event: 'buttonClicked', value: 'xyz' })}
